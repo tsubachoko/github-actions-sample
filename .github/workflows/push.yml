@@ -12,7 +12,10 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
+
+      - run: pnpm install
       - run: NITRO_PRESET=cloudflare pnpm build
+
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
