@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      on Cloudflare Workers with Nuxt.js
+      on Cloudflare Workers
     </div>
     <NuxtWelcome />
   </div>
